@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-05T10:48:40 GMT-07:00" name="Suite" finished-at="2022-06-05T10:52:05 GMT-07:00" duration-ms="205256">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-05T10:48:40 GMT-07:00" name="Test" finished-at="2022-06-05T10:52:05 GMT-07:00" duration-ms="205256">
+      <class name="com.mindtree.runner.NoBroker">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:48:40 GMT-07:00" name="setUpClass" finished-at="2022-06-05T10:48:41 GMT-07:00" duration-ms="510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31ceba99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:48:41 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:48:50 GMT-07:00" duration-ms="8825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Opening the Browser and hitting the url"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Landing on webpage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:48:50 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:49:14 GMT-07:00" duration-ms="23039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the Buying property"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:49:14 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:49:37 GMT-07:00" duration-ms="23399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the property available for Rental"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:49:37 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:49:59 GMT-07:00" duration-ms="22267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the property available for Commercial purpose"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:50:00 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:50:11 GMT-07:00" duration-ms="10899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the AvoidBroker page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:50:11 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:50:27 GMT-07:00" duration-ms="16425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["checking the Painting and Cleaning Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checkinh]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:50:27 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:50:45 GMT-07:00" duration-ms="17564" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the Careers Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="nb__3Tx_U nb__2jlgw">...</a> is not clickable at point (1210, 394). Other element would receive the click: <iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" data-test-id="ChatWidgetWindow-iframe" title="Zendesk Chat widget window"></iframe>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MINDC1D141', ip: '172.16.19.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cb2fca00384dd4c3b89baf285fed40a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nb__3Tx_U nb__2jlgw">...</a> is not clickable at point (1210, 394). Other element would receive the click: <iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" data-test-id="ChatWidgetWindow-iframe" title="Zendesk Chat widget window"></iframe>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MINDC1D141', ip: '172.16.19.252', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\MINDSD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cb2fca00384dd4c3b89baf285fed40a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.mindtree.stepdefinitions.CareerPageSD.click_on_career(CareerPageSD.java:42)
+at ✽.Click on Career(file:///C:/Users/mindsdet359/Downloads/CA_NoBroker_BDD_Cucumber/./Features/07CareerPage.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:50:45 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:51:05 GMT-07:00" duration-ms="20326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the Seller plan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:51:06 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:51:30 GMT-07:00" duration-ms="24740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the Owner plan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:51:31 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:51:54 GMT-07:00" duration-ms="23234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Home Services"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:51:54 GMT-07:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-05T10:52:05 GMT-07:00" duration-ms="11100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking Packer and Movers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.runner.NoBroker@29d89d5d]" started-at="2022-06-05T10:52:05 GMT-07:00" name="tearDownClass" finished-at="2022-06-05T10:52:05 GMT-07:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.runner.NoBroker -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
